@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Form</title>
+
+    <style>
+        body {
+            background: white;
+            font-family: Arial;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        table {
+            margin: auto;
+            padding: 10px;
+            border: 2px solid blue;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input, select, textarea {
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>REGISTRATION FORM</h1>
+
+    <form name="registration" onsubmit="return validate()">
+
+        <table>
+
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="confirm"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Phone:</td>
+                <td><input type="text" name="phone"></td>
+            </tr>
+
+            <tr>
+                <td>DOB:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="3" cols="20"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="reset" value="CLEAR"></td>
+                <td><input type="submit" value="REGISTER"></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <script>
+        function validate() {
+
+            var f = document.forms["registration"];
+
+            var u = f.elements["username"].value;
+            var p = f.elements["password"].value;
+            var c = f.elements["confirm"].value;
+            var e = f.elements["email"].value;
+            var ph = f.elements["phone"].value;
+            var d = f.elements["dob"].value;
+            var a = f.elements["address"].value;
+
+            var userPattern = /^[A-Za-z0-9_]+$/;
+            var passPattern = /^[A-Za-z0-9@#$]{6,}$/;
+            var phonePattern = /^[0-9]{10}$/;
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (u === "") {
+                alert("Enter username");
+                return false;
+            }
+
+            if (!userPattern.test(u)) {
+                alert("Invalid username");
+                return false;
+            }
+
+            if (p === "") {
+                alert("Enter password");
+                return false;
+            }
+
+            if (!passPattern.test(p)) {
+                alert("Password must contain at least 6 characters");
+                return false;
+            }
+
+            if (p !== c) {
+                alert("Passwords do not match");
+                return false;
+            }
+
+            if (!emailPattern.test(e)) {
+                alert("Enter valid email");
+                return false;
+            }
+
+            if (!phonePattern.test(ph)) {
+                alert("Enter valid 10 digit mobile number");
+                return false;
+            }
+
+            if (d === "") {
+                alert("Select date of birth");
+                return false;
+            }
+
+            if (!f.querySelector('input[name="gender"]:checked')) {
+                alert("Select gender");
+                return false;
+            }
+
+            if (a.trim() === "") {
+                alert("Enter address");
+                return false;
+            }
+
+            alert("Registration Successful");
+            return false;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<web-app>
+	<servlet>
+		<servlet-name>Hello</servlet-name>
+		<servlet-class>DemoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hello</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Greet</servlet-name>
+		<servlet-class>GreetServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Greet</servlet-name>
+		<url-pattern>/greet</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>collegename</param-name>
+		<param-value>CVR COE</param-value>
+	</context-param>	
+	
+	<servlet>
+		<servlet-name>InitParam</servlet-name>
+		<servlet-class>InitParamServlet</servlet-class>
+		<init-param>
+			<param-name>studentname</param-name>
+			<param-value>JOE</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>InitParam</servlet-name>
+		<url-pattern>/init</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Books</servlet-name>
+		<servlet-class>BookServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Books</servlet-name>
+		<url-pattern>/books</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+</web-app>

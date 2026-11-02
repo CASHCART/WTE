@@ -1,0 +1,370 @@
+[
+  {
+    "wording": "Design a Static catalogue page for a shopping cart application using CSS3 Grid Layout.",
+    "source": "Set-01-Q2 - Grid Catalogue",
+    "files": [
+      "Set 1 - Grid catalogue and Scrollable ResultSet/Q1 - Grid catalogue/catalogue.html"
+    ],
+    "questionInSet": 1,
+    "set": 1,
+    "question": 1,
+    "title": "Grid catalogue",
+    "setFolder": "Set 1 - Grid catalogue and Scrollable ResultSet"
+  },
+  {
+    "wording": "Write a java program to demonstrate Scrollable result set",
+    "source": "Set-01-Q1 - Scrollable ResultSet",
+    "files": [
+      "Set 1 - Grid catalogue and Scrollable ResultSet/Q2 - Scrollable ResultSet/ScrollableResultSet.java"
+    ],
+    "questionInSet": 2,
+    "set": 1,
+    "question": 2,
+    "title": "Scrollable ResultSet",
+    "setFolder": "Set 1 - Grid catalogue and Scrollable ResultSet"
+  },
+  {
+    "wording": "Design a simple servlet to display a message \"Hello World!\" using HttpServlet.",
+    "source": "Set-13-Q1 - HttpServlet Hello World",
+    "files": [
+      "Set 2 - HttpServlet Hello World and ResultSet metadata/Q1 - HttpServlet Hello World/HelloWorldServlet.java"
+    ],
+    "questionInSet": 1,
+    "set": 2,
+    "question": 3,
+    "title": "HttpServlet Hello World",
+    "setFolder": "Set 2 - HttpServlet Hello World and ResultSet metadata"
+  },
+  {
+    "wording": "Write a java program to access meta data of the JDBC ResultSet using ResultSetMetaData.",
+    "source": "Set-02-Q1 - ResultSet Metadata",
+    "files": [
+      "Set 2 - HttpServlet Hello World and ResultSet metadata/Q2 - ResultSet metadata/ResultSetMetadata.java"
+    ],
+    "questionInSet": 2,
+    "set": 2,
+    "question": 4,
+    "title": "ResultSet metadata",
+    "setFolder": "Set 2 - HttpServlet Hello World and ResultSet metadata"
+  },
+  {
+    "wording": "Write a java program to demonstrate Updatable result set",
+    "source": "Set-12-Q2 - Updatable ResultSet",
+    "files": [
+      "Set 3 - Updatable ResultSet and GenericServlet Hello CSE-DS/Q1 - Updatable ResultSet/UpdatableResultSet.java"
+    ],
+    "questionInSet": 1,
+    "set": 3,
+    "question": 5,
+    "title": "Updatable ResultSet",
+    "setFolder": "Set 3 - Updatable ResultSet and GenericServlet Hello CSE-DS"
+  },
+  {
+    "wording": "Design a simple servlet to display a message \"Hello CSE-DS\" using GenericServlet.",
+    "questionInSet": 2,
+    "set": 3,
+    "question": 6,
+    "title": "GenericServlet Hello CSE-DS",
+    "files": [
+      "Set 3 - Updatable ResultSet and GenericServlet Hello CSE-DS/Q2 - GenericServlet Hello CSE-DS/DemoServlet.java",
+      "Set 3 - Updatable ResultSet and GenericServlet Hello CSE-DS/Q2 - GenericServlet Hello CSE-DS/WEB-INF/web.xml"
+    ],
+    "source": "wtservlets (1)/DemoServlet.java; output updated to Hello CSE-DS",
+    "setFolder": "Set 3 - Updatable ResultSet and GenericServlet Hello CSE-DS"
+  },
+  {
+    "wording": "Write a java program to demonstrate Delete SQL query using PreparedStatement",
+    "source": "Set-11-Q1 - PreparedStatement DELETE",
+    "files": [
+      "Set 4 - PreparedStatement DELETE and Servlet database access/Q1 - PreparedStatement DELETE/DynamicDelete.java"
+    ],
+    "questionInSet": 1,
+    "set": 4,
+    "question": 7,
+    "title": "PreparedStatement DELETE",
+    "setFolder": "Set 4 - PreparedStatement DELETE and Servlet database access"
+  },
+  {
+    "wording": "Develop a servlet to demonstrate data access from a database.",
+    "questionInSet": 2,
+    "set": 4,
+    "question": 8,
+    "title": "Servlet database access",
+    "files": [
+      "Set 4 - PreparedStatement DELETE and Servlet database access/Q2 - Servlet database access/BookServlet.java",
+      "Set 4 - PreparedStatement DELETE and Servlet database access/Q2 - Servlet database access/WEB-INF/web.xml"
+    ],
+    "source": "wtservlets (1)/BookServlet.java; table cells corrected to valid HTML",
+    "setFolder": "Set 4 - PreparedStatement DELETE and Servlet database access"
+  },
+  {
+    "wording": "Write a java program to demonstrate Select SQL query using Statement.",
+    "source": "Set-06-Q2 - Statement SELECT",
+    "files": [
+      "Set 5 - Statement SELECT and Servlet form parameters/Q1 - Statement SELECT/StaticSelectJDBC.java"
+    ],
+    "questionInSet": 1,
+    "set": 5,
+    "question": 9,
+    "title": "Statement SELECT",
+    "setFolder": "Set 5 - Statement SELECT and Servlet form parameters"
+  },
+  {
+    "wording": "Write a servlet program to accept request parameters from a form and generate the response.",
+    "questionInSet": 2,
+    "set": 5,
+    "question": 10,
+    "title": "Servlet form parameters",
+    "files": [
+      "Set 5 - Statement SELECT and Servlet form parameters/Q2 - Servlet form parameters/GreetServlet.java",
+      "Set 5 - Statement SELECT and Servlet form parameters/Q2 - Servlet form parameters/greet.html",
+      "Set 5 - Statement SELECT and Servlet form parameters/Q2 - Servlet form parameters/WEB-INF/web.xml"
+    ],
+    "source": "wtservlets (1)/GreetServlet.java and web.xml; matching form added",
+    "setFolder": "Set 5 - Statement SELECT and Servlet form parameters"
+  },
+  {
+    "wording": "Create an XML file which will display the Book information with the following fields: Title of the book, Author Name, ISBN number, Publisher name, Edition, Price and check whether it is valid or not against a DTD.",
+    "source": "Set-06-Q1 - Book XML DTD",
+    "files": [
+      "Set 6 - Book XML with DTD and ServletContext and ServletConfig/Q1 - Book XML with DTD/books.dtd",
+      "Set 6 - Book XML with DTD and ServletContext and ServletConfig/Q1 - Book XML with DTD/books.xml"
+    ],
+    "questionInSet": 1,
+    "set": 6,
+    "question": 11,
+    "title": "Book XML with DTD",
+    "setFolder": "Set 6 - Book XML with DTD and ServletContext and ServletConfig"
+  },
+  {
+    "wording": "Write a servlet program to access parameters using ServletContext and ServletConfig",
+    "questionInSet": 2,
+    "set": 6,
+    "question": 12,
+    "title": "ServletContext and ServletConfig",
+    "files": [
+      "Set 6 - Book XML with DTD and ServletContext and ServletConfig/Q2 - ServletContext and ServletConfig/InitParamServlet.java",
+      "Set 6 - Book XML with DTD and ServletContext and ServletConfig/Q2 - ServletContext and ServletConfig/WEB-INF/web.xml"
+    ],
+    "source": "wtservlets (1)/InitParamServlet.java and web.xml",
+    "setFolder": "Set 6 - Book XML with DTD and ServletContext and ServletConfig"
+  },
+  {
+    "wording": "Write a Javascript program to build a scientific calculator.",
+    "source": "Set-07-Q1 - Scientific Calculator",
+    "files": [
+      "Set 7 - Scientific Calculator and Statement INSERT/Q1 - Scientific Calculator/scientific-calculator.html"
+    ],
+    "questionInSet": 1,
+    "set": 7,
+    "question": 13,
+    "title": "Scientific Calculator",
+    "setFolder": "Set 7 - Scientific Calculator and Statement INSERT"
+  },
+  {
+    "wording": "Write a java program to demonstrate Insert SQL query using Statement",
+    "source": "Set-07-Q2 - Statement INSERT",
+    "files": [
+      "Set 7 - Scientific Calculator and Statement INSERT/Q2 - Statement INSERT/StaticInsertJDBC.java"
+    ],
+    "questionInSet": 2,
+    "set": 7,
+    "question": 14,
+    "title": "Statement INSERT",
+    "setFolder": "Set 7 - Scientific Calculator and Statement INSERT"
+  },
+  {
+    "wording": "Using HTML design a Login page consisting of fields username and password using CSS3 Flex layout. Validate the fields of the login page using JavaScript and Regular expressions.",
+    "source": "Set-03-Q1 - Flexbox Login",
+    "files": [
+      "Set 8 - Flexbox Login and PreparedStatement SELECT/Q1 - Flexbox Login/login-flexbox.html"
+    ],
+    "questionInSet": 1,
+    "set": 8,
+    "question": 15,
+    "title": "Flexbox Login",
+    "setFolder": "Set 8 - Flexbox Login and PreparedStatement SELECT"
+  },
+  {
+    "wording": "Write a java program to demonstrate Select SQL query using PreparedStatement.",
+    "source": "Set-10-Q2 - PreparedStatement SELECT",
+    "files": [
+      "Set 8 - Flexbox Login and PreparedStatement SELECT/Q2 - PreparedStatement SELECT/DynamicSelectJDBC.java"
+    ],
+    "questionInSet": 2,
+    "set": 8,
+    "question": 16,
+    "title": "PreparedStatement SELECT",
+    "setFolder": "Set 8 - Flexbox Login and PreparedStatement SELECT"
+  },
+  {
+    "wording": "Write a Javascript program to demonstrate Javascript features: Fat Arrows, Destructuring (Array & Object).",
+    "source": "Set-08-Q1 - Arrows and Destructuring",
+    "files": [
+      "Set 9 - Arrow functions and destructuring and PreparedStatement INSERT/Q1 - Arrow functions and destructuring/arrow-destructuring.html"
+    ],
+    "questionInSet": 1,
+    "set": 9,
+    "question": 17,
+    "title": "Arrow functions and destructuring",
+    "setFolder": "Set 9 - Arrow functions and destructuring and PreparedStatement INSERT"
+  },
+  {
+    "wording": "Write a java program to demonstrate Insert SQL query using PreparedStatement",
+    "source": "Set-08-Q2 - PreparedStatement INSERT",
+    "files": [
+      "Set 9 - Arrow functions and destructuring and PreparedStatement INSERT/Q2 - PreparedStatement INSERT/DynamicInsertJDBC.java"
+    ],
+    "questionInSet": 2,
+    "set": 9,
+    "question": 18,
+    "title": "PreparedStatement INSERT",
+    "setFolder": "Set 9 - Arrow functions and destructuring and PreparedStatement INSERT"
+  },
+  {
+    "wording": "Design and validate a responsive Login page consisting of fields username and password using Bootstrap 5.",
+    "source": "Set-09-Q2 - Bootstrap Login",
+    "files": [
+      "Set 10 - Bootstrap Login and PreparedStatement UPDATE/Q1 - Bootstrap Login/login-bootstrap.html"
+    ],
+    "questionInSet": 1,
+    "set": 10,
+    "question": 19,
+    "title": "Bootstrap Login",
+    "setFolder": "Set 10 - Bootstrap Login and PreparedStatement UPDATE"
+  },
+  {
+    "wording": "Write a java program to demonstrate Update SQL query using PreparedStatement",
+    "source": "Set-09-Q1 - PreparedStatement UPDATE",
+    "files": [
+      "Set 10 - Bootstrap Login and PreparedStatement UPDATE/Q2 - PreparedStatement UPDATE/DynamicUpdate.java"
+    ],
+    "questionInSet": 2,
+    "set": 10,
+    "question": 20,
+    "title": "PreparedStatement UPDATE",
+    "setFolder": "Set 10 - Bootstrap Login and PreparedStatement UPDATE"
+  },
+  {
+    "wording": "Using HTML design a Registration page consisting of fields username, password, confirm password, mobile number, email-id, date of birth, gender, state, address. Validate the fields of the Registration page using Javascript and Regular expressions.",
+    "source": "Set-05-Q1 - HTML Registration",
+    "files": [
+      "Set 11 - HTML Registration and Create Student table/Q1 - HTML Registration/registration.html"
+    ],
+    "questionInSet": 1,
+    "set": 11,
+    "question": 21,
+    "title": "HTML Registration",
+    "setFolder": "Set 11 - HTML Registration and Create Student table"
+  },
+  {
+    "wording": "Write a java program using JDBC to Create Student table consisting of fields: Roll number, Name, Branch, Year, CGPA.",
+    "source": "Set-05-Q2 - Create Student Table",
+    "files": [
+      "Set 11 - HTML Registration and Create Student table/Q2 - Create Student table/CreateStudentTable.java"
+    ],
+    "questionInSet": 2,
+    "set": 11,
+    "question": 22,
+    "title": "Create Student table",
+    "setFolder": "Set 11 - HTML Registration and Create Student table"
+  },
+  {
+    "wording": "Write a java program to access meta data of the SQL database using DataBaseMetaData",
+    "source": "Set-04-Q1 - Database Metadata",
+    "files": [
+      "Set 12 - DatabaseMetaData and Book XML with XSD/Q1 - DatabaseMetaData/DatabaseMetadata.java"
+    ],
+    "questionInSet": 1,
+    "set": 12,
+    "question": 23,
+    "title": "DatabaseMetaData",
+    "setFolder": "Set 12 - DatabaseMetaData and Book XML with XSD"
+  },
+  {
+    "wording": "Create an XML file which will display the Book information with the following fields: Title of the book, Author Name, ISBN number, Publisher name, Edition, Price and check whether it is valid or not against an XML Schema.",
+    "source": "Set-04-Q2 - Book XML XSD",
+    "files": [
+      "Set 12 - DatabaseMetaData and Book XML with XSD/Q2 - Book XML with XSD/books.xml",
+      "Set 12 - DatabaseMetaData and Book XML with XSD/Q2 - Book XML with XSD/books.xsd"
+    ],
+    "questionInSet": 2,
+    "set": 12,
+    "question": 24,
+    "title": "Book XML with XSD",
+    "setFolder": "Set 12 - DatabaseMetaData and Book XML with XSD"
+  },
+  {
+    "wording": "Design a static login for an e-commerce website using CSS3 Flexbox layout. Validate the fields of the login page using Javascript and Regular expressions.",
+    "source": "Set-03-Q1 - Flexbox Login",
+    "files": [
+      "Set 13 - E-commerce Flexbox Login and CallableStatement procedure/Q1 - E-commerce Flexbox Login/login-flexbox.html"
+    ],
+    "questionInSet": 1,
+    "set": 13,
+    "question": 25,
+    "title": "E-commerce Flexbox Login",
+    "setFolder": "Set 13 - E-commerce Flexbox Login and CallableStatement procedure"
+  },
+  {
+    "wording": "Write a java program to Invoke a Stored SQL Procedure using CallableStatement",
+    "source": "Set-03-Q2 - CallableStatement Procedure",
+    "files": [
+      "Set 13 - E-commerce Flexbox Login and CallableStatement procedure/Q2 - CallableStatement procedure/insert_emp.sql",
+      "Set 13 - E-commerce Flexbox Login and CallableStatement procedure/Q2 - CallableStatement procedure/ProcedureUsingCallableStatement.java"
+    ],
+    "questionInSet": 2,
+    "set": 13,
+    "question": 26,
+    "title": "CallableStatement procedure",
+    "setFolder": "Set 13 - E-commerce Flexbox Login and CallableStatement procedure"
+  },
+  {
+    "wording": "Write a servlet program to access initialization parameters using ServletConfig.",
+    "source": "Set-15-Q2 - ServletConfig Initialization Parameters",
+    "files": [
+      "Set 14 - ServletConfig parameters and Bootstrap Registration/Q1 - ServletConfig parameters/ServletConfigParameters.java"
+    ],
+    "questionInSet": 1,
+    "set": 14,
+    "question": 27,
+    "title": "ServletConfig parameters",
+    "setFolder": "Set 14 - ServletConfig parameters and Bootstrap Registration"
+  },
+  {
+    "wording": "Design and validate a responsive Registration page consisting of fields username, password, confirm password, mobile number, email-id, date of birth, gender, state, address using Bootstrap 5.",
+    "source": "Set-02-Q2 - Bootstrap Registration",
+    "files": [
+      "Set 14 - ServletConfig parameters and Bootstrap Registration/Q2 - Bootstrap Registration/registration-bootstrap.html"
+    ],
+    "questionInSet": 2,
+    "set": 14,
+    "question": 28,
+    "title": "Bootstrap Registration",
+    "setFolder": "Set 14 - ServletConfig parameters and Bootstrap Registration"
+  },
+  {
+    "wording": "Assume users user1, user2 having the passwords pwd1, pwd2 respectively. Write a servlet application for doing the following functionalities Create a Cookie and add these user ids and passwords to that Cookie. Read the user id and password entered into the Login form and authenticate with the user id and passwords available in the cookies. If the person is a valid user you should welcome by name else you should display the message “You are not an authenticated user “.",
+    "source": "Set-16-Q1 - Cookie Authentication",
+    "files": [
+      "Set 15 - Cookie authentication and JSP database access/Q1 - Cookie authentication/CookieAuthentication.java"
+    ],
+    "questionInSet": 1,
+    "set": 15,
+    "question": 29,
+    "title": "Cookie authentication",
+    "setFolder": "Set 15 - Cookie authentication and JSP database access"
+  },
+  {
+    "wording": "Write a JSP program to demonstrate data access from a database. (Retained from the previous additional question.)",
+    "questionInSet": 2,
+    "set": 15,
+    "question": 30,
+    "title": "JSP database access",
+    "files": [
+      "Set 15 - Cookie authentication and JSP database access/Q2 - JSP database access/webapp.jsp"
+    ],
+    "source": "wtservlets (1)/webapp.jsp and the supplied photographed reference",
+    "setFolder": "Set 15 - Cookie authentication and JSP database access"
+  }
+]
